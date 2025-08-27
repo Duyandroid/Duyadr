@@ -1,10 +1,3 @@
---[[
-
-
-source code  t skid từ nhiều , hỏi concak
-
-]]--
-
 if  not LPH_OBFUSCATED then
 	function LPH_JIT_MAX(...)
 		return ...;
@@ -10949,4 +10942,5 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Text = "Loading Done!",
 	Icon = "rbxthumb://type=Asset&id=123448871674913&w=150&h=150",
 	Duration = 10
+
 });
