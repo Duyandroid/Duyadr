@@ -112,8 +112,8 @@ local Tabs = {
 }
 
 -- Tab 0
-Tabs.Main0:AddButton({Title="",Description="Duy Trường Tập Hack",Callback=function() setclipboard("") end})
-Tabs.Main0:AddButton({Title="TikTok",Description="Duy Trường",Callback=function() setclipboard("") end})
+Tabs.Main0:AddButton({Title="Duy Trường Tập Hack ",Description="",Callback=function() setclipboard("") end})
+Tabs.Main0:AddButton({Title="TikTok",Description="Duy Trường",Callback=function() setclipboard("https://www.tiktok.com/@brightaometa") end})
 
 -- Tab 1
 Tabs.Main1:AddButton({Title="Redz Hub",Callback=function()
