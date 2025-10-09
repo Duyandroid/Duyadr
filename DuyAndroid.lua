@@ -2414,7 +2414,7 @@
             if _G.FastAttackStrix_Mode then
                 pcall(function()
                     if (_G.FastAttackStrix_Mode == "Super Fast Attack") then
-                        _G.Fast_Delay = 1e-7;
+                        _G.Fast_Delay = 1e-9;
                     end
                 end);
             end
